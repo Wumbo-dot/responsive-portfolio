@@ -69,8 +69,8 @@
                     <div class="about-content padd-15">
                         <div class="row">
                             <div class="about-text padd-15">
-                                <h3>I'm JT Gutierrez and <span>Web Developer</span></h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus magni dolorem non alias labore asperiores veritatis quo autem veniam cum. </p>
+                                <h3>I'm JT Gutierrez and I am a<span>Web Developer</span></h3>
+                                <p>I love all things having to do with technology and learning.</p>
                             </div>
                         </div>
                         <div class="row">
@@ -94,7 +94,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="buttons padd-15">
-                                        <a href="#contact" data-section-index="1" class="btn hire me">Hire Me</a>
+                                        <a href="#contact" data-section-index="1" class="btn hire-me">Hire Me</a>
                                     </div>
                                 </div>
                             </div>
@@ -102,6 +102,13 @@
                                 <div class="row">
                                     <div class="skill-item padd-15">
                                         <h5>HTML</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width: 90%"></div>
+                                            <div class="skill-percent">90%</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item padd-15">
+                                        <h5>Git</h5>
                                         <div class="progress">
                                             <div class="progress-in" style="width: 90%"></div>
                                             <div class="skill-percent">90%</div>
@@ -154,6 +161,7 @@
                                                 </h3>
                                                 <h4 class="timeline-title">IT HelpDesk Support</h4>
                                                 <p class="timeline-text">Google</p>
+                                            </div>
                                             <!-- ==== Timeline Item ==== -->
                                             <div class="timeline-item">
                                                 <div class="circle-dot"></div>
@@ -392,41 +400,32 @@
           <h3 class="contact-title padd-15">Send Me An Email</h3>
           <h4 class="contact-sub-title padd-15">I Am Quick To Respond</h4>
           <!-- ====== Contact Form ====== -->
-          <div class="row">
-            <div class="contact-form padd-15">
-              <div class="row">
-                <div class="form-item col-6 padd-15">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Name">
-                  </div>
+          <div class="hero">
+            <form action="https://formspree.io/f/xzbwqenr" method="POST">
+                <div class="message-icon">
+                    <i class="fa fa-telegram"></i>
+                    <span>Message</span>
                 </div>
-                <div class="form-item col-6 padd-15">
-                  <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Email">
-                  </div>
+                <div id="input-field">
+                    <i class="fa fa-user"></i>
+                    <input type="text" placeholder="Name" name="Name">
                 </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Subject">
-                  </div>
+                <div id="input-field">
+                    <i class="fa fa-phone"></i>
+                    <input type="text" placeholder="Phone Number" name="Phone">
                 </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <div class="form-group">
-                    <textarea name="" class="form-control" id=""  placeholder="Message"></textarea>
-                  </div>
+                <div id="input-field">
+                    <i class="fa fa-envelope"></i>
+                    <input type="text" placeholder="Email Address" name="Email">
                 </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <button type="submit" class="btn">Send Me A Message</button>
+                <div id="input-field">
+                  <i class='fas fa-comment-dots' style='font-size:24px'></i>
+                    <textarea name="Message" placeholder="Message" rows="10"></textarea>
                 </div>
-              </div>
-            </div>
-          </div>
+                <input type="submit" value="Submit" class="send-btn">
+            </form>
+        </div>
+            
         </div>
       </section>
       <!-- ===== Contact Section End ===== -->
