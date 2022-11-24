@@ -990,6 +990,7 @@ form input, textarea{
     border-right: none;
     border-bottom: 1px solid black;
     outline: none;
+    font-weight: bold;
 }
 
 #input-field{
