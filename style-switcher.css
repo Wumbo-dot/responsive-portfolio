@@ -67,7 +67,7 @@
 }
 .style-switcher .color-1
 {
-    background: limegreen;
+    background: red;
 }
 .style-switcher .color-2
 {
@@ -75,11 +75,11 @@
 }
 .style-switcher .color-3
 {
-    background: purple;
+    background: goldenrod;
 }
 .style-switcher .color-4
 {
-    background: blue;
+    background: lightblue;
 }
 .style-switcher .color-5
 {
